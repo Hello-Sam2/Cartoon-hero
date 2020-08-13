@@ -1,6 +1,8 @@
 .header{
-	background-color: black;
-
+	background-color: #00A2FF;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: arial;
 
 }
 .navbar{
@@ -8,12 +10,14 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+
 }
 .navbar{
 	float: left;
 	  display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: orange;
+  
 }
 
 
@@ -23,10 +27,11 @@
 }
 .paratext{
 	font-size: 25px;
+	background-color: orange;
 }
 .bodyimg{
-	padding-right: 500px
-	background-color: white;
+	margin: 0px;
+	color: orange;
 }
 
 .header{
@@ -38,5 +43,7 @@
 
 }
 .innermostfooter{
-	padding-right: 200px;
+	padding-left: 300px;
 }
+
+
