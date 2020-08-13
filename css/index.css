@@ -1,0 +1,22 @@
+.para{
+	background-color: orange;
+}
+.paratext{
+	font-size: 25px;
+}
+.bodyimg{
+	padding-right: 500px
+	background-color: white;
+}
+
+.header{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.footer{
+	background-color: gold;
+
+}
+.innermostfooter{
+	padding-left: 550px;
+}
