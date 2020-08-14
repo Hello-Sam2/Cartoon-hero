@@ -3,11 +3,8 @@
 	padding-top: 10px;
 	font-size: 20px;
 	font-family: arial;
-
+}
 .Navvvbar{
-	float: top;
-	list-style-type: none;
-	margin: 0;
 
 }
 .navbar{
@@ -32,9 +29,9 @@
 	background-color: orange;
 }
 .bodyimg{
-	margin: 200px;
+	margin: 0px;
 	color: orange;
-	padding-left: 200px;
+
 }
 
 .header{
