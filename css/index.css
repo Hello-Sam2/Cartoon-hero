@@ -4,15 +4,17 @@
 	font-size: 20px;
 	font-family: arial;
 
+.Navvvbar{
+	float: top;
+	list-style-type: none;
+	margin: 0;
+
 }
 .navbar{
 	float: top;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
 
-}
-.navbar{
 	float: left;
 	  display: block;
   padding: 8px;
@@ -30,8 +32,9 @@
 	background-color: orange;
 }
 .bodyimg{
-	margin: 0px;
+	margin: 200px;
 	color: orange;
+	padding-left: 200px;
 }
 
 .header{
