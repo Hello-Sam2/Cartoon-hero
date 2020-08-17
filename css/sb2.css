@@ -28,10 +28,19 @@
 	font-size: 20px
 	}
 
+.potteryimg{
+	width: 240px;
+	float:left;
+	padding-left: 452px;
+	height: 320px;
+}
 .art-text{
-	line-height: 25px;
 	background-color: #85C1E9;
 	height: 308px; 
+	line-height: 50px;
+	font-family: Helvetica;
+	font-size: 20px
+
 }
 .artlink{
 	list-style-type: none;
