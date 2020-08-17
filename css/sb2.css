@@ -15,11 +15,17 @@
 	background-color: #85C1E9;
 }
 
+.landscape{
+
+}
+
 .para{
 	background-color: orange;
-	height: 650px;
+	height: 640px;
 	margin-left: 25px;
-	line-height: 25px;
+	line-height: 50px;
+	font-family: Helvetica;
+	font-size: 20px
 	}
 
 .art-text{
