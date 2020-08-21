@@ -1,5 +1,5 @@
 .navbar{
-	width: 1384px;
+	width: 2000px;
 	height: 30px;
 	background-color: black;
 }
@@ -12,6 +12,7 @@
 }
 
 .mainbox{
+	align-content: center;
 	padding-left: 500px;
 	padding-right: 500px;
 	width: 500px;
@@ -47,9 +48,7 @@
 	border: dashed;
 	border-color: white;
 	border-width: 5px;
-	width: 250px;
-	margin-top: 25px;
-	margin-right: -250px;
+
 
 
 }
