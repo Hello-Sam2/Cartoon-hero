@@ -15,7 +15,7 @@
 	padding-left: 500px;
 	padding-right: 500px;
 	width: 500px;
-	height: 500px;
+	height: 1500px;
 	background-color: #D5DBDB;
 }
 
@@ -31,3 +31,57 @@
 	border-style: solid;
 	border-color: white;
 }
+
+
+.seperationbox{
+	height: 31px;
+	background-color: #E74C3C;
+	width: 500px
+	padding-right: 500px;
+	margin-top: 50px
+
+
+}
+
+.contactbox{
+	border: dashed;
+	border-color: white;
+	border-width: 5px;
+	width: 250px;
+	margin-top: 25px;
+	margin-right: -250px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
