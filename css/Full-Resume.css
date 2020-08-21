@@ -1,0 +1,33 @@
+.navbar{
+	width: 1384px;
+	height: 30px;
+	background-color: black;
+}
+
+.title{
+	color: black ;
+	text-decoration: bold;
+	text-align: center;
+	font-family: serif;
+}
+
+.mainbox{
+	padding-left: 500px;
+	padding-right: 500px;
+	width: 500px;
+	height: 500px;
+	background-color: #D5DBDB;
+}
+
+.rheading{
+	color: #E74C3C;
+
+}
+
+.coverimg{
+	float: right;
+	border-radius: 200px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: white;
+}
