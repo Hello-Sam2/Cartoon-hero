@@ -1,5 +1,5 @@
 .navbar{
-	width: 2000px;
+	width: 100%;
 	height: 30px;
 	background-color: black;
 }
@@ -9,6 +9,10 @@
 	text-decoration: bold;
 	text-align: center;
 	font-family: serif;
+}
+
+.body{
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .mainbox{
@@ -64,7 +68,12 @@
 
 
 
-
+.footer{
+	margin: 25px;
+	background-color: #E74C3C;
+	height: 100px
+	width: 100%;
+}
 
 
 
