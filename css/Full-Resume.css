@@ -20,7 +20,7 @@
 	padding-left: 500px;
 	padding-right: 500px;
 	width: 500px;
-	height: 1500px;
+	height: 2500px;
 	background-color: #D5DBDB;
 }
 
@@ -57,6 +57,17 @@
 
 }
 
+.challah{
+	border: solid;
+	border-width: 25px;
+	border-color: white;
+	border-style: ridge;
+	box-sizing: border-box;
+	width: 250px
+
+
+}
+
 
 
 
@@ -71,7 +82,7 @@
 .footer{
 	margin: 25px;
 	background-color: #E74C3C;
-	height: 100px
+	height: 5%;
 	width: 100%;
 }
 
