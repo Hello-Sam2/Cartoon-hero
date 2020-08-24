@@ -95,9 +95,22 @@
 
 .footer{
 	margin: 25px;
-	background-color: #58D68D;
-	height: fit-content;
+	background-color: white;
 	width: 100%;
+}
+
+.innerfooter{
+  display: table;
+  text-align:center; 
+  width:100%;
+
+}
+
+
+.fheaders{
+  display:table-cell;
+  width:50%;
+  color: #D5DBDB;
 }
 
 
