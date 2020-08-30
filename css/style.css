@@ -5,8 +5,12 @@
 
 
 .wrapper{
-margin: 0 auto;
+margin-left: 0;
+margin-right: 0;
+margin-left: auto;
+margin-right: auto;
 width: 869px;
+
 }
 
 .banner{
@@ -39,6 +43,29 @@ h3{
 	font-size: 30px
 }
 
+h2{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+
+p{
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px; 
+}
+
+
+
 .banner h4{
 	color: white;
 	margin: 0;
@@ -58,11 +85,7 @@ h3{
 	margin-right: 20px;
 }
 
-h1{
-	font-weight: 800;
-	font-size: 50px;
 
-}
 
 
 .cta1{
@@ -113,25 +136,90 @@ a.cta{
 
 }
 
+nav{
+	position: sticky;
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+	top: 0;
 
 
-/*<div class="banner">
-		<div class="wrapper">
-			<h4>Robert Beacher presents:</h4>
-			<h1>Making Art With <br>
-				Mr. Beacher
-				Videos for <br>
-				All Levels
-			</h1>
-			<h3>
-				Art Teacher extrordinaire presents his incredible skills. <br>
-				In his ongoing series of videos.
 
-			</h3>
-			<a class="cta alt" href="#more-info" >Read more </a>
-		</div> 
+}
 
-		<img src="img/bannerimg.png" width="500px">
-		
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 40px;
+	position: absolute; top: 50%; left: 0;
+	margin-top: -26.5px;
+	margin-left: 30px;
+	background-size: 100%;
+	overflow: hidden;
+	text-decoration: none;
+	font-family: cursive;
+	color: black;
+	font-size: 30px
+
+
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.more-info{
+
+
+}
+
+.more-info h2{
+	text-align: center;
+}
+
+.more-info p{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.more-info button{
+	margin-left: 600px;
+	box-sizing: border-box;
+	
+
+}
+
+
+
+/*<div class="more-info" id="more-info">
+		<h2>Get the Videos</h2>
+		<p>For the low low price of <span highlight>$19.99,</span>  you can have access to all of Mr. Beacher's videos! So far, they are all uploaded to youtube for you to watch. But, in the future, there will be exclusive interviews, content, and Q&A's with the man himself. Please contact me for inquiries!</p>
+
+		<button class="cta">Contact Me</button>
 	</div>*/
-
