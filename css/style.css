@@ -194,25 +194,33 @@ nav ul li a{
 }
 
 .more-info{
+	text-align: center;
 
 
 }
 
 .more-info h2{
-	text-align: center;
+	
 }
 
 .more-info p{
-	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
+	line-height: 40px;
+	margin-bottom: 35px;
 }
 
 .more-info button{
-	margin-left: 600px;
-	box-sizing: border-box;
-	
 
+	box-sizing: border-box;
+}
+
+.highlight{
+	background-color: #85C1E9 ;
+	color: red;
+	padding: 10px;
+	display: inline;
+	font-weight: 800;
 }
 
 
