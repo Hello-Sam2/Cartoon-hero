@@ -1,0 +1,137 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+</style>
+
+
+
+.wrapper{
+margin: 0 auto;
+width: 869px;
+}
+
+.banner{
+background-color: #D35400;
+height: 447px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+
+}
+
+.bannerimg{
+	position: absolute;
+	top: 50px;
+	margin-left: 800px;
+	float: right;
+
+}
+
+h4{
+	font-weight: bold;
+	font-size: 20px
+
+}
+
+h3{
+	font-weight: bold;
+	font-size: 30px
+}
+
+.banner h4{
+	color: white;
+	margin: 0;
+}
+
+.banner h3{
+	color: white;
+	margin: 0;
+	margin-bottom: 35px;
+}
+
+.banner h1{
+	color: white;
+	margin-top: 14px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+
+
+.cta1{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	border-width:10px;
+	border: solid;
+	border-color: rgba(0, 0, 0, .15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	background: #2980B9;
+	color: black;
+
+}
+
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	border-width:10px;
+	border: solid;
+	border-color: rgba(0, 0, 0, .15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	background: #D35400;
+
+
+}
+
+a.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	border-width:10px;
+	border: solid;
+	border-color: rgba(0, 0, 0, .15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	background: #D35400;
+
+
+}
+
+
+
+/*<div class="banner">
+		<div class="wrapper">
+			<h4>Robert Beacher presents:</h4>
+			<h1>Making Art With <br>
+				Mr. Beacher
+				Videos for <br>
+				All Levels
+			</h1>
+			<h3>
+				Art Teacher extrordinaire presents his incredible skills. <br>
+				In his ongoing series of videos.
+
+			</h3>
+			<a class="cta alt" href="#more-info" >Read more </a>
+		</div> 
+
+		<img src="img/bannerimg.png" width="500px">
+		
+	</div>*/
+
