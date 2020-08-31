@@ -5,10 +5,7 @@
 
 
 .wrapper{
-margin-left: 0;
-margin-right: 0;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 width: 869px;
 
 }
@@ -101,6 +98,9 @@ p{
 	text-decoration: none;
 	background: #2980B9;
 	color: black;
+	cursor: pointer;
+	outline: none;
+	border: none;
 
 }
 
@@ -116,6 +116,7 @@ button.cta{
 	border-radius: 10px;
 	text-decoration: none;
 	background: #D35400;
+	cursor: pointer;
 
 
 }
@@ -132,6 +133,7 @@ a.cta{
 	border-radius: 10px;
 	text-decoration: none;
 	background: #D35400;
+	cursor: pointer;
 
 
 }
@@ -142,8 +144,7 @@ nav{
 	background-color: white;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
 	top: 0;
-
-
+	z-index: 1;
 
 }
 
@@ -223,11 +224,130 @@ nav ul li a{
 	font-weight: 800;
 }
 
+.sep{
+	width: 470px;
+	height: 10px;
+	background-color: black;
+	margin: 70px auto;
+
+}
+
+.about-us{
+	margin-left: 50px;
+}
+
+.sample-videos{
+	width: 470px;
+	padding: 20px 20px 0 20px;
+	box-sizing: border-box;
+	background-color: #EDEDED;
+	float: left;
+	position: relative;
+
+}
 
 
-/*<div class="more-info" id="more-info">
-		<h2>Get the Videos</h2>
-		<p>For the low low price of <span highlight>$19.99,</span>  you can have access to all of Mr. Beacher's videos! So far, they are all uploaded to youtube for you to watch. But, in the future, there will be exclusive interviews, content, and Q&A's with the man himself. Please contact me for inquiries!</p>
+.sample-videos h3{
+	font-size: 40px;
 
-		<button class="cta">Contact Me</button>
-	</div>*/
+
+}
+
+.sample-videos li{
+	height: 70px;
+	border-radius: 10px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+	color: black;
+
+
+
+}
+
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+	position: absolute; 
+	top: 70px;
+	left: 70px;
+	right: -30px;
+	transform: rotate(6deg);
+	box-shadow: 0 2px 14px rgba(0,0,0, .3)
+
+}
+
+.orange{
+	background-color: orange;
+}
+
+.dragging{
+	background-color: gray;
+
+}
+.salmon{
+	background-color: salmon;
+}
+
+.story p{
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.end-img{
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	color: rgba(0,0,0,.4);
+	font-size: 20px;
+	margin: 85px 0 45px;
+	font-weight: bold;
+}
+
+.popup{
+	display: none;
+}
+
+
+/*<div class="popup">
+		<div class="blanket">
+		<div class="content">
+			<h2>Contact Details:</h2>
+			<form action="">
+				<div class="item">
+				<label >Your first name</label>
+				<input type="text" placeholder="Roberto" value="Bob">
+			</div>
+			<div class="item">
+				<label >Your last name</label>
+				<input type="text" placeholder="Salomon" >
+			</div>
+			<div class="item">
+				<label >The Way You Found Us</label>
+				<input type="text" placeholder="Youtube" >
+			</div>
+			<div class="item">
+				<label>Reason for Inquiring</label>
+				<input type="text" placeholder="I'm a teacher" >
+			</div>
+			<button class="cta">Send Email!</button>		
+			</form>
+			<button class="cta">Close</button>
+
+		</div>
+
+	</div>
+</div>
+
+
+
+*/
