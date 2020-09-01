@@ -36,7 +36,7 @@
 		<ul>
 			<li><a href="#more-info">More Info</a></li>
 			<li><a href="#about-us">About Us</a></li>
-			<li><a href="#">Contact Me</a></li>
+			<li><a href="javascript:()" onclick="showPopup();">Contact Me</a></li>
 		
 		</ul>
 	</nav>
@@ -47,7 +47,7 @@
 			<p>For the low low price of <span class="highlight">$0.00,</span>  you can have access to all of Mr. Beacher's videos! So far, they are all uploaded to youtube for you to watch. But, in the future, there will be exclusive interviews, content, and Q&A's with the man himself. Please contact me for inquiries!</p>
 		</div>
 
-		<button class="cta">Contact Me</button>
+		<button class="cta" onclick="showPopup();">Contact Me</button>
 	</div>
 
 
@@ -91,19 +91,22 @@
 		Made by Samuel Beacher.
 	</footer>
 
-	<div class="popup">
+	<div class="popup" id="popup">
 		<div class="blanket">
 		<div class="content">
 			<h2>Contact Details:</h2>
 			<form action="">
+			<div class="row">
+					<div class="item">
+					<label >Your first name</label>
+					<input type="text" placeholder="Roberto" value="Bob">
+				</div>
 				<div class="item">
-				<label >Your first name</label>
-				<input type="text" placeholder="Roberto" value="Bob">
+					<label >Your last name</label>
+					<input type="text" placeholder="Salomon" >
+				</div>
 			</div>
-			<div class="item">
-				<label >Your last name</label>
-				<input type="text" placeholder="Salomon" >
-			</div>
+		<div class="row">
 			<div class="item">
 				<label >The Way You Found Us</label>
 				<input type="text" placeholder="Youtube" >
@@ -112,14 +115,17 @@
 				<label>Reason for Inquiring</label>
 				<input type="text" placeholder="I'm a teacher" >
 			</div>
+		</div>	
 			<button class="cta">Send Email!</button>		
 			</form>
-			<button class="close">X</button>
+			<button class="close" onclick="hidePopup();">X</button>
 
 		</div>
 
 	</div>
 </div>
+
+<script src="script.js" type="text/javascript"></script>
 
 
 
