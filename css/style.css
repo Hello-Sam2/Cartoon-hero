@@ -323,7 +323,7 @@ footer{
 	z-index: 2;
 }
 
-.popup .show{
+.popup.show{
 	display: block;
 }
 
@@ -420,6 +420,12 @@ footer{
 
 .popup .cta{
 	margin-top: 40px;
+}
+
+.popup .cta .a{
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
 }
 
 
