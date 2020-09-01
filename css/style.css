@@ -422,7 +422,8 @@ footer{
 	margin-top: 40px;
 }
 
-.popup .cta .a{
+.popup .close a{
+	
 	text-decoration: none;
 	font-size: 40px;
 	color: white;

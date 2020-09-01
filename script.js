@@ -8,11 +8,11 @@ function showPopup() {
 
 }
 
-function hidePopup() {
-	var popup = document.getElementById('popup')
-	popup.classlist.remove('show')
+// function hidePopup() {
+// 	var popup = document.getElementById('popup')
+// 	popup.classlist.remove('show')
 
-}
+// }
 
 
 
