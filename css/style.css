@@ -10,6 +10,10 @@ width: 869px;
 
 }
 
+a{
+	color: white;
+	text-decoration: none;
+}
 .banner{
 background-color: #D35400;
 height: 447px;
@@ -224,6 +228,10 @@ nav ul li a{
 	font-weight: 800;
 }
 
+.video{
+	
+}
+
 .sep{
 	width: 470px;
 	height: 10px;
@@ -265,8 +273,10 @@ nav ul li a{
 	box-sizing: border-box;
 	color: black;
 
+}
 
-
+li a{
+	color: black;
 }
 
 .blue{
@@ -293,7 +303,7 @@ nav ul li a{
 }
 .salmon{
 	background-color: salmon;
-}
+	}
 
 .story p{
 	font-size: 30px;
